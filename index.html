@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 428px)"
+      href="./mobile.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="./main.js" defer></script>
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- Top Navigation Menu -->
+        <nav>
+          <img class="logo" src="./images/logo.svg" alt="Logo" />
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+          <!-- Navigation links -->
+          <ul id="nav-ul" class="menu">
+            <li><a href="#" class="menuItem">About</a></li>
+            <li><a href="#" class="menuItem">Careers</a></li>
+            <li><a href="#" class="menuItem">Events</a></li>
+            <li><a href="#" class="menuItem">Products</a></li>
+            <li><a href="#" class="menuItem">Support</a></li>
+          </ul>
+        </nav>
+        <div id="showcase">
+          <h1>
+            Immersive<br />
+            experiences<br />
+            that deliver
+          </h1>
+        </div>
+      </div>
+    </header>
+    <section id="featured" class="container">
+      <div class="featuredImg">
+        <img
+          class="featuredImg-desktop"
+          src="./images/desktop/image-interactive.jpg"
+          alt="interactive"
+        />
+        <img
+          class="featuredImg-mobile"
+          src="./images/mobile/image-interactive.jpg"
+          alt="interactive"
+        />
+      </div>
+      <div class="featuredText">
+        <h2>The leader in interactive VR</h2>
+        <p>
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe. Our
+          award-winning creations have transformed businesses through digital
+          experiences that bind to their brand.
+        </p>
+      </div>
+    </section>
+    <section class="grid-gallery container">
+      <div class="title">
+        <h2>Our creations</h2>
+        <a href="#" class="btn">See all</a>
+      </div>
+      <div class="gallery">
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-deep-earth.jpg"
+            alt="deep earth"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-deep-earth.jpg"
+            alt="deep earth"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">Deep <span>earth</span></h3>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-night-arcade.jpg"
+            alt="image-night-arcade"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-night-arcade.jpg"
+            alt="image-night-arcade"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">Night <span>arcade</span></h3>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-soccer-team.jpg"
+            alt="socer team"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-soccer-team.jpg"
+            alt="socer team"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">Soccer <span>team VR</span></h3>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-grid.jpg"
+            alt="grid"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-grid.jpg"
+            alt="grid"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">The <span>grid</span></h3>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-from-above.jpg"
+            alt="from up above"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-from-above.jpg"
+            alt="from up above"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">From up <span>above VR</span></h3>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-pocket-borealis.jpg"
+            alt="image-pocket-borealis"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-pocket-borealis.jpg"
+            alt="image-pocket-borealis"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">Pocket <span>borealis</span></h3>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-curiosity.jpg"
+            alt="curiosity"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-curiosity.jpg"
+            alt="curiosity"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">The <span>curiosity</span></h3>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="imgCard-desktop"
+            src="./images/desktop/image-fisheye.jpg"
+            alt="fisheye"
+          />
+          <img
+            class="imgCard-mobile"
+            src="./images/mobile/image-fisheye.jpg"
+            alt="fisheye"
+          />
+          <div class="content fade"></div>
+          <h3 class="img-title">Make it <span>fisheye</span></h3>
+        </div>
+        <div class="mobileSeeAll"><a href="#" class="btn">See all</a></div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer container">
+        <div class="left-side">
+          <img src="./images/logo.svg" alt="logo" />
+          <ul>
+            <li><a href="#" class="underline">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="right-side">
+          <div class="social">
+            <a href="#"
+              ><img src="./images/icon-facebook.svg" alt="facebook"
+            /></a>
+            <a href="#"
+              ><img src="./images/icon-twitter.svg" alt="twitter"
+            /></a>
+            <a href="#"
+              ><img src="./images/icon-pinterest.svg" alt="pinterest"
+            /></a>
+            <a href="#"
+              ><img src="./images/icon-instagram.svg" alt="instagram"
+            /></a>
+          </div>
+          <div class="copy">&copy; 2021 Loopstudios. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+
+header {
+  background: url("./images/mobile/image-hero.jpg") no-repeat center/cover;
+  padding-bottom: 2rem;
+}
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3rem;
+  padding: 2rem;
+}
+h2 {
+  font-size: 2.3rem;
+}
+.hamburger {
+  display: block;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+nav {
+  padding: 3rem 0;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.nav-ul {
+  display: none;
+  width: 100%;
+}
+.nav-ul.show {
+  display: flex;
+
+}
+#showcase {
+  max-width: 100%;
+  border: #fff 1px solid;
+  margin: 8rem auto;
+  display: block;
+}
+#featured {
+  flex-wrap: wrap;
+  margin: 3rem auto 0;
+}
+
+.featuredText,
+.featuredImg {
+  max-width: 100%;
+}
+.featuredText {
+  position: static;
+  text-align: center;
+  padding: 2rem;
+  margin: 5rem 0;
+}
+.featuredImg-mobile {
+  display: inline-block;
+}
+.featuredImg-desktop {
+  display: none;
+}
+.featuredImg {
+  flex-basis: 100%;
+}
+.title {
+  display: block;
+  text-align: center;
+}
+.title a.btn {
+  display: none;
+}
+.mobileSeeAll {
+  display: block;
+  margin: 0 auto;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 5rem 0;
+  margin-bottom: 2rem;
+}
+.imgCard-mobile {
+  display: block;
+}
+.imgCard-desktop {
+  display: none;
+}
+.overlay,
+.hover-overlay
+ {
+  height: 100%;
+}
+
+.footer {
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-side ul {
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.right-side {
+  align-items: center;
+}
+
+.left-side img,
+.social {
+  margin-bottom: 1rem;
+}
