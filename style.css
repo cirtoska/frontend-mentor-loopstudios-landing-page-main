@@ -12,7 +12,7 @@ body {
   color: #000;
 }
 .container {
-  width: 1440px;
+  width: 80%;
   margin: 0 auto;
 }
 header {
@@ -30,7 +30,6 @@ h3 {
 h1 {
   font-size: 4.5rem;
   padding: 3rem 3rem 2rem 3rem;
-
 }
 h2 {
   font-size: 3.5rem;
